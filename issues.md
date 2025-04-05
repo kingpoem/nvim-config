@@ -24,3 +24,9 @@ Append
 ```init.lua
 vim.tbl_islist = vim.islist
 ```
+
+### clipboard: error invoking xclip: Authorization required, but no authorization protocol specified Error: Cant open display
+
+```bash
+sudo pacman install xsel
+```
