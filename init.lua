@@ -15,6 +15,9 @@ if not pcall(require, 'lazy') then
     vim.cmd.quit()
 end
 
+vim.o.clipboard = 'unnamedplus'
+vim.tbl_islist = vim.islist
+
 require 'lazy_setup'
 require 'polish'
 
